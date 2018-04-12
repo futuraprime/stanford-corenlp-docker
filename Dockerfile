@@ -20,5 +20,5 @@ WORKDIR /opt/corenlp
 ENV PORT 9000
 EXPOSE $PORT
 
-CMD java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer --port $PORT --timeout 10000
+CMD java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer --port $PORT --timeout 100000
 
